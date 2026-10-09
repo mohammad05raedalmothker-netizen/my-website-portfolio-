@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mohammad Raed Almothker | AI Automation Developer & Workflow Architect</title>
+<meta name="description" content="Mohammad Raed Almothker builds custom AI agents, n8n workflows, CRM integrations and Python automation for small businesses.">
+<meta property="og:title" content="Mohammad Raed Almothker | AI Automation Developer">
+<meta property="og:description" content="Custom AI agents and n8n workflows that take repetitive work off your team.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%230B7A66'/><text x='16' y='22' text-anchor='middle' fill='white' font-family='system-ui' font-weight='700' font-size='15'>M</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="#top" aria-label="Mohammad Raed Almothker, home"><span class="brand-mark" aria-hidden="true">M</span><span>Mohammad Raed</span></a>
+    <button class="menu-btn" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#second-brain">Second Brain</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="status"><img class="hero-avatar" src="avatar.jpg" alt="" width="44" height="44">Taking on new automation projects</p>
+      <h1>Your repetitive work, running itself.</h1>
+      <p class="lead">I'm Mohammad Raed Almothker, an AI automation developer. I build n8n workflows and custom AI agents that answer customers, update your CRM and keep your spreadsheets in sync, so your team stops copying data by hand.</p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-primary">Book a free audit</a>
+        <a href="#work" class="btn btn-ghost">See my projects</a>
+      </div>
+    </div>
+
+    <figure class="flow" aria-label="Example workflow: a customer message becomes a reply and a record">
+      <figcaption class="flow-title">Example run: computer store assistant</figcaption>
+      <ol class="flow-nodes" id="flow">
+        <li class="node is-active"><span class="n-ico">WA</span><span class="n-text"><b>Message received</b><small>Customer asks for a gaming PC under $900</small></span></li>
+        <li class="node"><span class="n-ico">AI</span><span class="n-text"><b>Agent reads the request</b><small>Gemini picks out budget and use case</small></span></li>
+        <li class="node"><span class="n-ico">GS</span><span class="n-text"><b>Stock checked</b><small>Google Sheets returns parts in stock</small></span></li>
+        <li class="node"><span class="n-ico">OK</span><span class="n-text"><b>Reply and email sent</b><small>Quote goes to the customer through Gmail</small></span></li>
+      </ol>
+      <div class="flow-foot"><span id="flow-time">0.0s</span><span>from message to answer, no human in the loop</span></div>
+    </figure>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="container">
+    <header class="sec-head">
+      <h2>Selected work</h2>
+      <p>Open a project to see what it does and how the pieces connect.</p>
+    </header>
+
+    <div class="project-toolbar">
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="chip is-on" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" data-filter="ai-agents" aria-pressed="false">AI agents</button>
+        <button class="chip" data-filter="n8n" aria-pressed="false">n8n</button>
+        <button class="chip" data-filter="crm" aria-pressed="false">CRM</button>
+        <button class="chip" data-filter="python" aria-pressed="false">Python</button>
+      </div>
+      <p class="project-count" id="project-count" role="status" aria-live="polite">6 projects</p>
+    </div>
+
+    <div class="projects" id="projects">
+      <details class="project" data-category="ai-agents n8n" open>
+        <summary><span class="p-title">Stateful AI assistant for a computer retailer</span><span class="p-tags">AI agent · n8n</span></summary>
+        <div class="p-body">
+          <p>Answers customer questions with memory of the conversation, checks live stock in Google Sheets, recommends hardware and emails a summary through Gmail.</p>
+          <p class="flow-line"><span>Chat</span><span>n8n</span><span>Gemini</span><span>Sheets</span><span>Gmail</span></p>
+          <a class="p-link" href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">View workflow on GitHub</a>
+        </div>
+      </details>
+
+      <details class="project" data-category="ai-agents crm">
+        <summary><span class="p-title">Omnichannel AI student assistant</span><span class="p-tags">AI agent · CRM</span></summary>
+        <div class="p-body">
+          <p>One n8n system behind Telegram, Telegram groups and a web chat widget. It answers course questions, looks up listings, checks payment status, updates the database and alerts teachers.</p>
+          <p class="flow-line"><span>Telegram</span><span>Web chat</span><span>n8n</span><span>Database</span><span>HubSpot</span></p>
+          <a class="p-link" href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">Explore the repository</a>
+        </div>
+      </details>
+
+      <details class="project" data-category="ai-agents n8n crm">
+        <summary><span class="p-title">Voice-activated CRM agent</span><span class="p-tags">AI agent · n8n · CRM</span></summary>
+        <div class="p-body">
+          <p>Send a voice note and it is transcribed with Whisper, enriched with web research, then turned into a calendar slot and a client summary in HubSpot.</p>
+          <p class="flow-line"><span>Voice note</span><span>Whisper</span><span>n8n</span><span>HubSpot</span></p>
+          <a class="p-link" href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </details>
+
+      <details class="project" data-category="n8n">
+        <summary><span class="p-title">NFC student attendance</span><span class="p-tags">n8n · IoT</span></summary>
+        <div class="p-body">
+          <p>Students tap an NFC tag, a secure webhook reaches n8n, the log lands in a spreadsheet and points show up on a dashboard.</p>
+          <p class="flow-line"><span>NFC tap</span><span>Webhook</span><span>n8n</span><span>Sheets</span><span>Dashboard</span></p>
+          <a class="p-link" href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+        </div>
+      </details>
+
+      <details class="project" data-category="crm n8n">
+        <summary><span class="p-title">CRM lead enricher and scorer</span><span class="p-tags">CRM · n8n</span></summary>
+        <div class="p-body">
+          <p>Catches new Webflow leads, enriches them with database records, scores engagement and sends the best ones straight to Slack.</p>
+          <p class="flow-line"><span>Webflow</span><span>n8n</span><span>Scoring</span><span>Slack</span></p>
+          <a class="p-link" href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">GitHub code</a>
+        </div>
+      </details>
+
+      <details class="project" data-category="python">
+        <summary><span class="p-title">Custom API integration gateway</span><span class="p-tags">Python · FastAPI</span></summary>
+        <div class="p-body">
+          <p>A lightweight FastAPI service that routes webhook events and keeps legacy databases and modern SaaS tools in sync.</p>
+          <p class="flow-line"><span>Webhook</span><span>FastAPI</span><span>Legacy DB</span><span>SaaS API</span></p>
+          <a class="p-link" href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">Explore the repository</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PROJECT -->
+<section class="brain" id="second-brain">
+  <div class="container brain-wrap">
+    <div class="brain-copy">
+      <p class="brain-kicker"><span></span> IN DEVELOPMENT <span class="brain-divider">/</span> PERSONAL PROJECT</p>
+      <h2>AI Second Brain</h2>
+      <p class="brain-lead">A personal knowledge system designed to help an AI understand the context behind my files, work, and ideas.</p>
+      <p class="brain-description">I’m exploring how retrieval, structured personal context, and long-term memory can work together to power a more useful personal AI agent. The goal is grounded answers that can point back to the knowledge they came from.</p>
+      <div class="brain-tags" aria-label="Project concepts"><span>Knowledge retrieval</span><span>Personal memory</span><span>AI agents</span></div>
+    </div>
+    <div class="brain-architecture" aria-label="Conceptual architecture of the AI Second Brain project">
+      <div class="brain-arch-head"><span class="brain-mark" aria-hidden="true">✳</span><div><small>PROJECT ARCHITECTURE</small><b>From personal knowledge to useful context</b></div></div>
+      <div class="brain-flow">
+        <div class="brain-source"><span class="brain-icon" aria-hidden="true">▤</span><span><b>Personal knowledge</b><small>Files · notes · projects</small></span></div>
+        <span class="brain-connector" aria-hidden="true"></span>
+        <div class="brain-core"><span class="brain-icon" aria-hidden="true">✳</span><span><b>Context layer</b><small>Search · profile · memory</small></span></div>
+        <span class="brain-connector" aria-hidden="true"></span>
+        <div class="brain-agent"><span class="brain-icon" aria-hidden="true">✦</span><span><b>Personal AI agent</b><small>Answers grounded in your knowledge</small></span></div>
+      </div>
+      <p class="brain-foot"><span class="brain-pulse"></span> A research and build in progress</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="tint">
+  <div class="container">
+    <header class="sec-head">
+      <h2>What I can build for you</h2>
+      <p>Fewer manual steps, fewer mistakes, more hours back.</p>
+    </header>
+    <div class="rows">
+      <article class="row"><h3>AI automation</h3><div><p>Connect the tools you already use with n8n loops and webhook routing, so data moves without anyone retyping it.</p><ul><li>Multi-step API orchestration</li><li>Real-time webhook routing</li><li>Error handling and logs</li></ul></div></article>
+      <article class="row"><h3>Workflow development</h3><div><p>Map, build and audit workflows between Google Workspace, Slack and the rest of your stack.</p><ul><li>Bottleneck audits</li><li>Google Workspace automations</li><li>Slack alerts</li></ul></div></article>
+      <article class="row"><h3>CRM solutions</h3><div><p>Capture leads, enrich contacts, score opportunities and sync everything to HubSpot or Salesforce.</p><ul><li>HubSpot and Salesforce workflows</li><li>Lead enrichment</li><li>Deal-stage triggers</li></ul></div></article>
+      <article class="row"><h3>Custom AI agents</h3><div><p>Assistants that remember the conversation, call tools, search your documents and send emails.</p><ul><li>Function calling</li><li>Retrieval-augmented generation</li><li>Conversation memory</li></ul></div></article>
+      <article class="row"><h3>Python automation</h3><div><p>Scripts, scrapers, file processors and API connectors for jobs that are too custom for a no-code tool.</p><ul><li>Web scraping and extraction</li><li>Backend scripting</li><li>API pipeline maintenance</li></ul></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="container">
+    <header class="sec-head">
+      <h2>How a project runs</h2>
+      <p>Four steps from first call to a workflow your team can maintain.</p>
+    </header>
+    <ol class="steps">
+      <li><span class="s-num">1</span><h3>Audit</h3><p>We map your tools, bottlenecks and manual loops, then pick the automation with the biggest payoff.</p></li>
+      <li><span class="s-num">2</span><h3>Design</h3><p>I draw the workflow, API flows and error paths before building anything.</p></li>
+      <li><span class="s-num">3</span><h3>Build</h3><p>n8n pipelines, AI agents and Python connectors, tested on real edge cases.</p></li>
+      <li><span class="s-num">4</span><h3>Launch</h3><p>Goes live with logging, alerts and documentation so you are never locked in.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="tint">
+  <div class="container about">
+    <div class="about-main">
+      <div class="about-intro">
+        <img class="avatar" src="avatar.jpg" alt="Portrait of Mohammad Raed Almothker" width="280" height="350" loading="lazy">
+        <div class="profile-copy">
+          <h2>AI automation, informed by a chemistry mindset</h2>
+          <p>I'm a chemistry student and AI automation developer. I design dependable workflows and AI agents that help startups, clinics, and schools reduce repetitive work, using n8n, Python, and large language models.</p>
+          <p>Chemistry has trained me to think in systems: define the conditions, test assumptions, observe the results, and document the process. I bring that same discipline to automation, including edge cases and clear handover documentation.</p>
+        </div>
+      </div>
+      <ul class="career">
+        <li><b>2024 to now</b><span>Freelance AI solutions architect. Custom agents, n8n pipelines and CRM sync for startups.</span></li>
+        <li><b>2023 to 2024</b><span>Workflow and integration developer. Automations for healthcare and education, including NFC check-ins.</span></li>
+      </ul>
+    </div>
+    <div class="stack">
+      <h3>Tools I work with</h3>
+      <dl>
+        <div><dt>Automation</dt><dd>n8n, REST webhooks, Google Workspace APIs</dd></div>
+        <div><dt>AI</dt><dd>OpenAI API, Gemini API, Claude, LangChain, vector search</dd></div>
+        <div><dt>Data and CRM</dt><dd>Supabase, PostgreSQL, HubSpot API</dd></div>
+        <div><dt>Code</dt><dd>Python, JavaScript, HTML and CSS, Git and GitHub</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container contact">
+    <div>
+      <h2>Tell me what you do by hand today</h2>
+      <p class="lead-sm">Describe one repetitive task. I'll reply with whether it can be automated and roughly how. The first 30-minute audit is free.</p>
+      <ul class="reach">
+        <li><span>Email</span><a href="mailto:mohammad05raedalmothker@gmail.com">mohammad05raedalmothker@gmail.com</a></li>
+        <li><span>WhatsApp</span><a href="https://wa.me/962775296594" target="_blank" rel="noopener noreferrer">+962 775 296 594</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/mohammad-raed-almothker-07a59b322/" target="_blank" rel="noopener noreferrer">mohammad-raed-almothker</a></li>
+        <li><span>GitHub</span><a href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">n8n-project</a></li>
+      </ul>
+      <a class="btn btn-primary" href="https://wa.me/962775296594?text=Hi%20Mohammad%2C%20I%27d%20like%20to%20book%20a%20free%2030-minute%20audit%20for%20my%20business%20workflows." target="_blank" rel="noopener noreferrer">Book the audit on WhatsApp</a>
+    </div>
+
+    <form id="contact-form" novalidate>
+      <label for="form-name">Full name</label>
+      <input id="form-name" type="text" autocomplete="name" required>
+      <label for="form-email">Email</label>
+      <input id="form-email" type="email" autocomplete="email" required>
+      <label for="form-subject">Subject <small>(optional)</small></label>
+      <input id="form-subject" type="text">
+      <label for="form-message">What would you like to automate?</label>
+      <textarea id="form-message" rows="5" required></textarea>
+      <button type="submit" class="btn btn-primary" id="form-submit-button">Send via WhatsApp</button>
+      <p class="form-status" id="contact-form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <span>&copy; 2026 Mohammad Raed Almothker</span>
+    <nav aria-label="Social">
+      <a href="https://www.linkedin.com/in/mohammad-raed-almothker-07a59b322/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/mohammad05raedalmothker-netizen/n8n-project" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://wa.me/962775296594" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://web.telegram.org/k/" target="_blank" rel="noopener noreferrer">Telegram</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
